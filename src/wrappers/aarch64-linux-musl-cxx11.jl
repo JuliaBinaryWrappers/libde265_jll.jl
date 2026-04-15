@@ -2,7 +2,7 @@
 export libde265
 
 JLLWrappers.@generate_wrapper_header("libde265")
-JLLWrappers.@declare_library_product(libde265, "libde265.so")
+JLLWrappers.@declare_library_product(libde265, "libde265.so.0")
 function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(

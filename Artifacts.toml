@@ -1,316 +1,174 @@
 [[libde265]]
 arch = "aarch64"
-git-tree-sha1 = "0f80d36ba0c423c887bdecdd6c93e5f77072d7f5"
+git-tree-sha1 = "88922e70e8007e76d0f86a179f1eefb1f56ec716"
 os = "macos"
 
     [[libde265.download]]
-    sha256 = "a81116a308d864438004b513df724d8f97607b4a7053afca569809bcf1b6f20b"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.aarch64-apple-darwin.tar.gz"
+    sha256 = "0c06e1b57769b3b58d4c6ff96be4b86b3c80d20b55a94a0160da7b32b721dc66"
+    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.18000+0/libde265.v1.0.18000.aarch64-apple-darwin.tar.gz"
 [[libde265]]
 arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "3ca9bb49d8fab3b3b08a78653b17dd61ea5cbf1e"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9c55422468aec73768539438488d9a80969fc2e6"
 libc = "glibc"
 os = "linux"
 
     [[libde265.download]]
-    sha256 = "6de2b9913e72cdbbbecef726ed1181a774cf24e272f2a57190fb94f7d4475c50"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.aarch64-linux-gnu-cxx03.tar.gz"
+    sha256 = "4e35d9ea16f8b4d10210b72b734c1dd4c859339ad8205d10a3cbcd6f2aef401e"
+    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.18000+0/libde265.v1.0.18000.aarch64-linux-gnu-cxx11.tar.gz"
 [[libde265]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "a12075dc689b786d05f9a65391ae65dc11fcaa61"
-libc = "glibc"
-os = "linux"
-
-    [[libde265.download]]
-    sha256 = "b1e02a268c5afa1f57f86ee5eaac0b23cb80b00c653228f6397081e146081b66"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.aarch64-linux-gnu-cxx11.tar.gz"
-[[libde265]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "0bfeef170d96401a61bebd09e409c756dec828a4"
+git-tree-sha1 = "8ce7fc008ea8a856c9b7113ca2762a0d9ed0a3c1"
 libc = "musl"
 os = "linux"
 
     [[libde265.download]]
-    sha256 = "f77d35acaccf1983f57b821d8bb8e8245fb30c7e3e923424d16beb166419d1de"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.aarch64-linux-musl-cxx03.tar.gz"
+    sha256 = "c454b0ff99c174cb1c8ddd332edc6eb6dfb398bb4600d7f9bf3b45a0c2e338db"
+    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.18000+0/libde265.v1.0.18000.aarch64-linux-musl-cxx11.tar.gz"
 [[libde265]]
 arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "5f169c6ae5d422bb86b186a1ff16d0159508c243"
-libc = "musl"
-os = "linux"
-
-    [[libde265.download]]
-    sha256 = "c12a47f0209243cb6afe8501e1acc9a5e8b098814afe08c92c5fb78ffbc401b2"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.aarch64-linux-musl-cxx11.tar.gz"
-[[libde265]]
-arch = "aarch64"
-git-tree-sha1 = "c56b15b3f032395d75d95b805d4f5850079a4fd6"
+git-tree-sha1 = "5092fc3c53463f272f0fb61e0696d349c7f5b6e5"
 os = "freebsd"
 
     [[libde265.download]]
-    sha256 = "d9e4c900098875dd6e292d5f07506f45534f15bf5239d54183bb7458f6967f14"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.aarch64-unknown-freebsd.tar.gz"
-[[libde265]]
-arch = "armv6l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "4c2a195805aef4dec0dfe0306fcfb1055ab967d5"
-libc = "glibc"
-os = "linux"
-
-    [[libde265.download]]
-    sha256 = "966ef8188081b5b03e5b852c2645dc1c81cb1d1a3bbff19f07435c6e187dcb94"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.armv6l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "8da373cf7fe9777d38b331ad7010abfe601169292a070bcd884c020aeeae554e"
+    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.18000+0/libde265.v1.0.18000.aarch64-unknown-freebsd.tar.gz"
 [[libde265]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "4bb3696f3abaad9eefc041a7924662327356bc5f"
+git-tree-sha1 = "4ceb624a5bfe58699b8116b41993c68d463a155e"
 libc = "glibc"
 os = "linux"
 
     [[libde265.download]]
-    sha256 = "cc75edd713f3c5dcc51a6ada2e98b546dcb46b0c55b88431c3c1034f71a4d1bb"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.armv6l-linux-gnueabihf-cxx11.tar.gz"
-[[libde265]]
-arch = "armv6l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "babde66316542c3cc144092fa35622abeb27fe1b"
-libc = "musl"
-os = "linux"
-
-    [[libde265.download]]
-    sha256 = "8bf099481e4bed6f27057bcb1514cd38318fc854e65cf0da5e6e6bd3d9426d9f"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.armv6l-linux-musleabihf-cxx03.tar.gz"
+    sha256 = "373f9094ae9b3df4642315dcfb0ff970d13a3abe191844a8b8e282cd6ff8ea2b"
+    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.18000+0/libde265.v1.0.18000.armv6l-linux-gnueabihf-cxx11.tar.gz"
 [[libde265]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "f79d2ce8a53a505610c3bf78d45b5e5c41ac88eb"
+git-tree-sha1 = "bc8aa9c91f8373b059cc4b4ba86a0e48a417b299"
 libc = "musl"
 os = "linux"
 
     [[libde265.download]]
-    sha256 = "caaeb72edd9db80b63762b43f17a15244824fdfd469e8d912f3852ea5836e680"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.armv6l-linux-musleabihf-cxx11.tar.gz"
-[[libde265]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "0a0cead00f73503373b26484af9e4b228747d49c"
-libc = "glibc"
-os = "linux"
-
-    [[libde265.download]]
-    sha256 = "f373a98c4e7d2b9414f6a083e48d85c3c1d4fb5e52fb19e7647d2183e0f87a0a"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.armv7l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "beae6f18adc28437cf22fb515c0577daf233871c5d5649f5fde455b89b8091a6"
+    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.18000+0/libde265.v1.0.18000.armv6l-linux-musleabihf-cxx11.tar.gz"
 [[libde265]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "2212595af36baacf6fe749506a941f4c79646d35"
+git-tree-sha1 = "972f86b6f8b5607c8e9704bf49182266df5cc659"
 libc = "glibc"
 os = "linux"
 
     [[libde265.download]]
-    sha256 = "3659e1035a81957adfb0e852513ec6706194e1bbade2d83120dbae02b76a428a"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.armv7l-linux-gnueabihf-cxx11.tar.gz"
-[[libde265]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "07c087e0f8cd7110884eee2126a66aa4e1588974"
-libc = "musl"
-os = "linux"
-
-    [[libde265.download]]
-    sha256 = "ebbf998f57a3c17d41dc8a1f89ae6caf5eb3828b7051e9a7d8233bd9b0cd21b5"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.armv7l-linux-musleabihf-cxx03.tar.gz"
+    sha256 = "0db17a161c8054194be0810294fe1b9f686d6b9b7c04c47058018149c7fa754c"
+    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.18000+0/libde265.v1.0.18000.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[libde265]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "148de2df1fed8544f6ca7535b33a9a598f218a5d"
+git-tree-sha1 = "32caa9758fbb96b0c2fa0a888d6151a33220cffd"
 libc = "musl"
 os = "linux"
 
     [[libde265.download]]
-    sha256 = "d487011068611b74793a6bf57d450a657a7693134063518265b8975c99334a25"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.armv7l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "2cd2f8a845648112d01c639079860d5e58c22bd168d0b64a4164877fb0708c23"
+    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.18000+0/libde265.v1.0.18000.armv7l-linux-musleabihf-cxx11.tar.gz"
 [[libde265]]
 arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "f240cca2b9fa86bfc6ef30bc3e538c8df69a97d9"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "59eb2050f0bacc0e85ded7843f3957d3c9994386"
 libc = "glibc"
 os = "linux"
 
     [[libde265.download]]
-    sha256 = "fa597b67611048f67b5769cfb0e426ae15564595fd5a39a34c9370cc6a9b0b26"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.i686-linux-gnu-cxx03.tar.gz"
+    sha256 = "74ae3e6bf13da7f727c3a60949168bfed701d91b6b476b4b41b146b7c878ef44"
+    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.18000+0/libde265.v1.0.18000.i686-linux-gnu-cxx11.tar.gz"
 [[libde265]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "1b447a8628a974a46c7a8b24594ad43d2a68acd4"
-libc = "glibc"
-os = "linux"
-
-    [[libde265.download]]
-    sha256 = "feab06f2255935e80e100e7f2cd717c0c6c4d5632f22a771846a7c72ebbb9e7c"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.i686-linux-gnu-cxx11.tar.gz"
-[[libde265]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "9b3b1ba5fe37827a17e5ffb1e1dedc3eede50db2"
+git-tree-sha1 = "7ea5ecb0369d439e2b6eeacab88410ef520c8023"
 libc = "musl"
 os = "linux"
 
     [[libde265.download]]
-    sha256 = "3b2a3debf41497f2167b30ea4ecc915a781704dc78a9075d2a67ccd11b59a989"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.i686-linux-musl-cxx03.tar.gz"
+    sha256 = "54ca17913f1bc0b0ce0d7c5c6cefa267e25b8ec7d0badffe7a7a18afd8a774c1"
+    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.18000+0/libde265.v1.0.18000.i686-linux-musl-cxx11.tar.gz"
 [[libde265]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "393f8c992b6b69036d7fb5f34740d15120992d2a"
-libc = "musl"
-os = "linux"
-
-    [[libde265.download]]
-    sha256 = "17cda7ee1f0836ea4c4113ee84180c1b454582b1bb88e97d8152ef36501d646d"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.i686-linux-musl-cxx11.tar.gz"
-[[libde265]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "e3a8c2bb6347337da9a9049d2b02cafa492f925f"
+git-tree-sha1 = "14cb3a7d1d65d407230af9e07e15690e01d9b791"
 os = "windows"
 
     [[libde265.download]]
-    sha256 = "8768d46a1da10900403272c266a7e97110170e0829266c3aaae6ebad70637172"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.i686-w64-mingw32-cxx03.tar.gz"
-[[libde265]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "48dd20a8d2e951a025d66f277275cf6d47155a2a"
-os = "windows"
-
-    [[libde265.download]]
-    sha256 = "ec2e48ffefeb7e66b239e6846575cf4db0d034016468ecf3cc42dd18538ec003"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.i686-w64-mingw32-cxx11.tar.gz"
-[[libde265]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "f29ee86164a73bbda96a4b8859282d2c3929f391"
-libc = "glibc"
-os = "linux"
-
-    [[libde265.download]]
-    sha256 = "46630ffb7be415a3f51804db2b63187ba8e8ff5b80782405472b032b9e1d56e1"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.powerpc64le-linux-gnu-cxx03.tar.gz"
+    sha256 = "76a80ae866264557660e416d72e28515ddfcd3643dc760f06c1313a1d6bab481"
+    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.18000+0/libde265.v1.0.18000.i686-w64-mingw32-cxx11.tar.gz"
 [[libde265]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "1a83f8c211b28ec9963e909b83c7e9be6244218f"
+git-tree-sha1 = "cce690537297a9b6de4310e1ab6c6d6d5bf29e92"
 libc = "glibc"
 os = "linux"
 
     [[libde265.download]]
-    sha256 = "901012b39a7c6e9579feff972bad2e860902d8c94fa20e17a8729c02c5cc64bf"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.powerpc64le-linux-gnu-cxx11.tar.gz"
-[[libde265]]
-arch = "riscv64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "996eb390a7b6577fc587d4171fd3ab616073c081"
-libc = "glibc"
-os = "linux"
-
-    [[libde265.download]]
-    sha256 = "edece4eec9b3410a56d8150b030d60ec61034b2ee61673d487049c803faf86e0"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.riscv64-linux-gnu-cxx03.tar.gz"
+    sha256 = "1630dfcf01e330455f1574ca97a67b307c5ebf5f91d1af2aab40f770bd1dd16f"
+    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.18000+0/libde265.v1.0.18000.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[libde265]]
 arch = "riscv64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "184d2c4f9b8aa3db346564d2dcb28174c970cc9c"
+git-tree-sha1 = "84cd5aa2d1c387cb819dced0a31ea842c938520e"
 libc = "glibc"
 os = "linux"
 
     [[libde265.download]]
-    sha256 = "6771d38306e8e6c9bee2c4a6b6215c574b3c7cc5b7afa368f5ae32d686139c42"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.riscv64-linux-gnu-cxx11.tar.gz"
+    sha256 = "b332b067ffabe3f1c32c7d28ef975dca9f9d7789f67d164742b5866d936bdfb0"
+    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.18000+0/libde265.v1.0.18000.riscv64-linux-gnu-cxx11.tar.gz"
 [[libde265]]
 arch = "x86_64"
-git-tree-sha1 = "6bc1b95f29030725f60709556893e0a6038a7192"
+git-tree-sha1 = "7abde2705f7d267d87fbacff0243217b8f74ba00"
 os = "macos"
 
     [[libde265.download]]
-    sha256 = "41c3bebd905c32b92e2c72fcb1737c52416d30a9c32a047fa99dd177685dc435"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.x86_64-apple-darwin.tar.gz"
+    sha256 = "a6fc432de7c04469c8bde2b44e15d0ab2e204a0596d497d896210ebab2327be9"
+    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.18000+0/libde265.v1.0.18000.x86_64-apple-darwin.tar.gz"
 [[libde265]]
 arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "7cfc2a3cc1655291bb39b46046cca326e0cf70d2"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f72948f8b701ea17d48333df5229297e962845d2"
 libc = "glibc"
 os = "linux"
 
     [[libde265.download]]
-    sha256 = "6129e4be8c9e03a85e9d665e85c1b80499a0bbfbd0078bf30cc14aa4cd4d9c79"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "daab914dfe93e62f7505d66da6670a9cc8aed27e6b76ea715e38d5cf570488bd"
+    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.18000+0/libde265.v1.0.18000.x86_64-linux-gnu-cxx11.tar.gz"
 [[libde265]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "8a9fe75511f001a2b4c25916adb1cafbab9a8eb4"
-libc = "glibc"
-os = "linux"
-
-    [[libde265.download]]
-    sha256 = "dac66dad319b91e360e0c671e47facdb3c3ebb95e4eac1a2f563968f3c66b154"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.x86_64-linux-gnu-cxx11.tar.gz"
-[[libde265]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "4ac87ce23d90a8e6d4cf47a5f707af879699e944"
+git-tree-sha1 = "7b56edccba4feb6cfba73deea8032ed4437533a2"
 libc = "musl"
 os = "linux"
 
     [[libde265.download]]
-    sha256 = "7726cef615218c84a50b26b1496a19cf595dad2358197d75c4110dd75c0220b7"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.x86_64-linux-musl-cxx03.tar.gz"
+    sha256 = "8b9db651c97f7070bd6cb72ef8d87739dff4535bb3e59916dc715d5b6c0395a0"
+    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.18000+0/libde265.v1.0.18000.x86_64-linux-musl-cxx11.tar.gz"
 [[libde265]]
 arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "856cbba31dfd5856f95f291e3544ae82ba3c467b"
-libc = "musl"
-os = "linux"
-
-    [[libde265.download]]
-    sha256 = "24f2fc72b4e1e7d0abd23c83133c8988c6417936c7362231c94ad3b54459663a"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.x86_64-linux-musl-cxx11.tar.gz"
-[[libde265]]
-arch = "x86_64"
-git-tree-sha1 = "1635f8fc6399cfe0199ed4dee00d39ccd0efbb81"
+git-tree-sha1 = "955f5044ed47246df85b65491f790dcf2cc14832"
 os = "freebsd"
 
     [[libde265.download]]
-    sha256 = "c06473b1d3e693055f11b209f5c4fc86c07190bb4039be07a11ba1f399041432"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.x86_64-unknown-freebsd.tar.gz"
-[[libde265]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "51b87c3f0f74d4c73d75fc51ea13b2d82b293a33"
-os = "windows"
-
-    [[libde265.download]]
-    sha256 = "bd6a794c91f173f8e2e58b1d3999183445957b305a86d12384a677f85823995c"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.x86_64-w64-mingw32-cxx03.tar.gz"
+    sha256 = "bd77b1409d53e359437c260f5fe52855e7541756502edd40d2451248c83a46d7"
+    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.18000+0/libde265.v1.0.18000.x86_64-unknown-freebsd.tar.gz"
 [[libde265]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "427ecabef6aec055cb712deb52d14342ece11f4b"
+git-tree-sha1 = "205d5f14b02655bfcca9aed3ac1f8b69f5189b6f"
 os = "windows"
 
     [[libde265.download]]
-    sha256 = "3049282d3f1d9f77d4a5260731d906faffba51e32252fb0b1a6f009f24909dca"
-    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.16000+0/libde265.v1.0.16000.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "b7eef24e46116e76ce2b4334e0216e58bd657a7f1bf38a2310b8d03a977223be"
+    url = "https://github.com/JuliaBinaryWrappers/libde265_jll.jl/releases/download/libde265-v1.0.18000+0/libde265.v1.0.18000.x86_64-w64-mingw32-cxx11.tar.gz"
