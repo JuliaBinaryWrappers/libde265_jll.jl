@@ -2,12 +2,12 @@
 export libde265
 
 JLLWrappers.@generate_wrapper_header("libde265")
-JLLWrappers.@declare_library_product(libde265, "@rpath/libde265.0.dylib")
+JLLWrappers.@declare_library_product(libde265, "@rpath/libde265.dylib")
 function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libde265,
-        "lib/libde265.0.1.11.dylib",
+        "lib/libde265.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
