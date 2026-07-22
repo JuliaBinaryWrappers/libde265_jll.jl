@@ -1,6 +1,6 @@
 name = "libde265_jll"
 uuid = "0a7f2b4d-d03c-5694-960e-196e69ee64e2"
-version = "1.0.19000+0"
+version = "1.1.0+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
